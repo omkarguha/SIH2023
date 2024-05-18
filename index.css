@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "space grotesk", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    padding: 16px 0;
+    background-color: #ffffff;
+    position: ;
+    
+}
+
+.logo{
+    text-align: center;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    height: 55px;
+    width: 295px;
+    position: relative;
+    border-radius: 10px;
+    
+}
+.logo p{
+    letter-spacing: 5px;
+}
+
+.bar{
+    display: flex;
+    gap: 25px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    position: relative;
+    top: 10px;
+}
+.pro{
+    letter-spacing: 1px;
+    position: relative;
+    top: 10px;
+    display: flex;
+
+}
+.pro i{
+    position: relative;
+    top: 10px;
+    right: 8px;
+}
+
+
+.carousel {
+    height: 899px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+
+.carouselbutton {
+    position: relative;
+    top: 11%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.change {
+    height: 60px;
+    width: 30px;
+    border: none;
+    opacity: 0.3;
+    transition: 0.1s;
+}
+
+.change:hover {
+    opacity: 0.6;
+}
+
+.info {
+    position: relative;
+    background-color: rgba(235, 217, 217, 0.375);
+    box-shadow: 5px 5px 5px rgba(48, 42, 42, 0.367);
+    width: 860px;
+    text-align: center;
+    top: 126px;
+    height: 350px;
+    margin: auto;
+    opacity: ;
+    border: ;
+    border-radius: 15px;
+}
+
+.info>h5 {
+    letter-spacing: 5px;
+    position: relative;
+    top: 30px;
+}
+
+.info h1 {
+    position: relative;
+    top: 20px;
+    font-size: 100px;
+}
+
+.info h3 {
+    position: relative;
+    top: 70px;
+    letter-spacing: 1px;
+}
+
+.info button {
+    position: relative;
+    top: 90px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 17px;
+}
+
+.info button:hover {
+    background-color: white;
+    color: black;
+}
+
+.whyToReuse {
+    height: 100vh;
+    display: flex;
+
+}
+
+.left {
+    width: 38vw;
+
+
+}
+
+.left h3 {
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.left p {
+    font-size: 18px;
+    width: 30vw;
+    font-family: ;
+    position: relative;
+    top: 120px;
+    left: 100px;
+}
+
+.left i {
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+
+.right {
+    width: ;
+    background-color: ;
+    background-size: ;
+}
+
+.right img {
+    position: relative;
+    top: 86px;
+    left: 68px;
+    scale: 1.1;
+}
+
+.contact {
+    height: 95vh;
+    background-color: #4D8495;
+    display: flex;
+    justify-content: space-between;
+}
+.lleft{
+    background-color: ;
+    height: 350px;
+    width: 390px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+.lleft >i{
+    position: relative;
+    top: 42px;
+    left: 180px;
+}
+
+.lleft h3{
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left: 180px;
+}
+
+.lleft p{
+    font-size: 20px;
+    position: relative;
+    top: 120px;
+    left: 180px;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    top: 190px;
+    left: 180px;
+}
+
+.lleft h4{
+    position: relative;
+    left: 180px;
+    top: 250px;
+
+}
+
+.rright{
+    background-color: ;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 80px;
+    right: 100px;
+}
+.rright>p{
+    font-size: 17px;
+    position: relative;
+    top: 15px;
+
+}
+.inp{
+    width: 400px;
+    height:35px;
+    font-size: 15px;
+    border: 2px solid black;
+    transition: 0.1s;
+    background-color: #4D8495;
+}
+.inp:hover{
+    border:none;
+    border: 3px solid black;
+}
+.inpp{
+    height:px ;
+}
+.rright button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    top: 10px;
+    left:280px ;
+}
+.rright button:hover{
+    color: black;
+    background-color: white;
+    
+}
+.end{
+    height: 40vh;
+    background-color: rgb(242, 242, 241);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0;
+    font-size: 13px;
+    letter-spacing: 0.9px;
+}
